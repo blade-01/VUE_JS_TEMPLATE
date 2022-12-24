@@ -12,7 +12,6 @@ module.exports = {
         priText: "#272A3F",
       },
       fontFamily: {
-        commissioner: ["Commissioner", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       fontSize: {
