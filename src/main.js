@@ -20,6 +20,10 @@ import "vue-tel-input/dist/vue-tel-input.css";
 // Vue Select
 import "vue-select/dist/vue-select.css";
 
+// Vue toastification and styles
+import Toast from "vue-toastification";
+import "vue-toastification/dist/index.css";
+
 const options = {
   // Default toast options
   position: "top-right",

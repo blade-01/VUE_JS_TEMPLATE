@@ -5,7 +5,7 @@ import TheFooter from '@/components/navbar/TheFooter.vue'
 </script>
 
 <template>
-  <the-header />
-  <home-cta />
-  <the-footer />
+  <the-header></the-header>
+  <home-cta></home-cta>
+  <the-footer></the-footer>
 </template>
