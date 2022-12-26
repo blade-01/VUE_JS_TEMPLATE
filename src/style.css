@@ -19,11 +19,15 @@
   }
 
   ::-webkit-scrollbar {
-    @apply w-[10px]  bg-[#454747];
+    @apply w-4 h-4;
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply rounded-lg h-auto bg-primary;
+    @apply bg-primary rounded-[100vh] border-solid border-4 border-[#213547];
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#213547];
   }
 }
 
