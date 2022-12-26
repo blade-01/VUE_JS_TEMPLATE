@@ -1,6 +1,9 @@
 import axios from "axios";
 import router from "../router";
 import { useMainStore } from "./main";
+import { useToast } from "vue-toastification";
+
+const toast = useToast();
 
 export const http = axios.create({
   baseURL: import.meta.env.VITE_APP_BASE_URL,
@@ -32,7 +35,7 @@ http.interceptors.response.use(
       response.status === 401 ||
       response.data.message === "401 Unauthorized"
     ) {
-      alert('Unauthorized!')
+      toast.error("Oops! You're not authorized");
     }
     return response;
   },
