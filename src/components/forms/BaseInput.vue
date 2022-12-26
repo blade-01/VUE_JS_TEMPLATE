@@ -131,6 +131,7 @@ defineProps({
     type: [String, Boolean],
   },
 });
+defineEmits(['changeType'])
 </script>
 
 <style lang="scss" scoped></style>

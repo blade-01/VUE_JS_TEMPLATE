@@ -19,11 +19,11 @@
   }
 
   ::-webkit-scrollbar {
-    @apply w-[10px]  bg-[#444444];
+    @apply w-[10px]  bg-[#454747];
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply rounded-lg h-[80px] bg-priText;
+    @apply rounded-lg h-auto bg-primary;
   }
 }
 
@@ -154,7 +154,7 @@
 
 @layer utilities {
   /* NAVIGATION TOGGLER */
-  .is-active {
+  .open-navbar {
     @apply left-0 lg:left-0 transition-[left] duration-500 ease-in-out;
   }
 }
