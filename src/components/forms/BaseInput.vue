@@ -131,7 +131,7 @@ defineProps({
     type: [String, Boolean],
   },
 });
-defineEmits(['changeType'])
+defineEmits(['changeType', 'update:modelValue'])
 </script>
 
 <style lang="scss" scoped></style>
